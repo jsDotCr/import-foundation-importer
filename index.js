@@ -7,6 +7,6 @@ sass.render(eyeglass({
   if (error) {
     console.error('error', error)
   } else {
-    console.log('ok!', result)
+    console.log('ok!', result.css.toString())
   }
 });
