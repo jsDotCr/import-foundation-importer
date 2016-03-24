@@ -1,5 +1,5 @@
-var sass = require("node-sass");
-var eyeglass = require("eyeglass");
+var sass = require('node-sass')
+var eyeglass = require('eyeglass')
 
 sass.render(eyeglass({
   file: 'index.scss'
