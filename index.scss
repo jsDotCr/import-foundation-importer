@@ -1,0 +1,5 @@
+@import 'import-foundation';
+
+.clearfix {
+  @include clearfix;
+}
