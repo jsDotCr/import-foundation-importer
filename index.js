@@ -1,5 +1,5 @@
-var sass = require("node-sass");
-var eyeglass = require("eyeglass");
+var sass = require('node-sass')
+var eyeglass = require('eyeglass')
 
 sass.render(eyeglass({
   file: 'index.scss'
@@ -7,6 +7,6 @@ sass.render(eyeglass({
   if (error) {
     console.error('error', error)
   } else {
-    console.log('ok!', result)
+    console.log('ok!', result.css.toString())
   }
-});
+})

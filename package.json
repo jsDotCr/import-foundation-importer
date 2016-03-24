@@ -4,10 +4,10 @@
   "description": "This imports \"import-foundation\"",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node index.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "jsDotCr",
+  "license": "WTFPL",
   "dependencies": {
     "eyeglass": "~0.8.3",
     "node-sass": "*",
