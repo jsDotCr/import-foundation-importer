@@ -1,5 +1,5 @@
 {
-  "name": "the-final-importer",
+  "name": "import-foundation-importer",
   "version": "1.0.0",
   "description": "This imports \"import-foundation\"",
   "main": "index.js",
@@ -11,6 +11,6 @@
   "dependencies": {
     "eyeglass": "~0.8.3",
     "node-sass": "*",
-    "import-foundation": "jsdotcr/import-foundation"
+    "import-foundation": "jsdotcr/import-foundation#eyeglass-fix"
   }
 }
