@@ -1,5 +1,5 @@
 {
-  "name": "the-final-importer",
+  "name": "import-foundation-importer",
   "version": "1.0.0",
   "description": "This imports \"import-foundation\"",
   "main": "index.js",
